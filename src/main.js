@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import moment from 'moment';
-
+import './css/main.css'; 
 import App from './App.vue'
 import router from './router'
 import { useMainStore } from '@/stores/main.js'
